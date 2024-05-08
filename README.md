@@ -77,3 +77,17 @@ EDA involved using the Human Resources data to answer the follwing questions:
 
 ## Data Analysis:
 #### Some codes used during the data analysis stage:
+	SELECT
+		ROUND(AVG(datediff(termdate, hire_date))/365,0) AS avg_length_employment
+	FROM hr
+	WHERE age >= 18 AND termdate <= curdate() AND termdate IS NOT NULL;
+ 
+
+	SELECT department, total_count, terminated_count, terminated_count/total_count AS termination_rate
+	FROM (
+		SELECT department, COUNT(*) AS total_count,
+	    SUM(CASE WHEN termdate IS NOT NULL AND termdate <= curdate() THEN 1 ELSE 0 END) AS terminated_count
+	    FROM hr
+	    WHERE age >= 18
+	    GROUP BY department) AS term_subquery
+	ORDER BY termination_rate DESC;
