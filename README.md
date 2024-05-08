@@ -17,18 +17,13 @@ The primary date used for this is the Human_Resources.csv file
 
 ### Codes used during data cleaning and formatting
 ### STEP 1 -- Change ï»¿id column to employee id and allow NULL values
-
+```sql
 	ALTER TABLE hr
 	CHANGE COLUMN ï»¿id emp_id VARCHAR(20) NULL;
-
-#### -- Check data types for all columns
-	DESCRIBE hr;
-
+```
 
 ### STEP 2 -- Change birthdate from text to date
-
-	SELECT birthdate
-	FROM hr;
+```sql
 
 	SET sql_safe_updates = 0;
 	UPDATE hr
@@ -37,28 +32,24 @@ The primary date used for this is the Human_Resources.csv file
 	    WHEN birthdate LIKE '%-%' THEN date_format(str_to_date(birthdate, '%m-%d-%Y'), '%Y-%m-%d')
 	    ELSE NULL
 	END;
-#### -- Check birthdate column
-	SELECT birthdate
-	FROM hr;
+```
 
 ### STEP 3 -- Change birthdate data type from text to date
+```sql
 	ALTER TABLE hr
 	MODIFY COLUMN birthdate DATE;
+```
  
-#### -- Check if birthdate data types has changed	
-	DESCRIBE hr;
-
 ### STEP 4 -- UPDATE HIRE_DATE
+```sql
 	UPDATE hr 
 	SET hire_date = CASE
 	    WHEN hire_date LIKE '%/%' THEN date_format(str_to_date(hire_date, '%m/%d/%Y'), '%Y-%m-%d')
 	    WHEN hire_date LIKE '%-%' THEN date_format(str_to_date(hire_date, '%m-%d-%Y'), '%Y-%m-%d')
 	    ELSE NULL
 	END;
+```
  
-#### -- Check hire_date column
-	SELECT hire_date FROM hr;
-
 
 ## Exploratory Data Analysis
 EDA involved using the Human Resources data to answer the follwing questions:
