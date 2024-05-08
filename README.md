@@ -78,7 +78,7 @@ EDA involved using the Human Resources data to answer the follwing questions:
 ## Data Analysis:
 
 #### Some codes used during the data analysis stage:
-	```sql
+```sql
 	SELECT department, total_count, terminated_count, terminated_count/total_count AS termination_rate
 	FROM (
 		SELECT department, COUNT(*) AS total_count,
