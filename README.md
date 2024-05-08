@@ -3,8 +3,8 @@
 
 ### STEP 1 -- Change ï»¿id column to emp_id and allow NULL values
 
-	`ALTER TABLE hr
-	CHANGE COLUMN ï»¿id emp_id VARCHAR(20) NULL;`
+	ALTER TABLE hr
+	CHANGE COLUMN ï»¿id emp_id VARCHAR(20) NULL;
 
 #### -- Check data types for all columns
 	`DESCRIBE hr;`
