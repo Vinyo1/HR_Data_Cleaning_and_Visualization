@@ -1,3 +1,10 @@
+# Analysis and Visualization of HR Dataset on Employees
+
+## Project Overview
+This project aimed to gain insights into various aspects of employee data within a company. By leveraging data analytics and visualization techniques, the project delved into understanding patterns, trends and relationships within the dataset to inform HR strategies and decision-making processes.
+
+
+
 ## HR_Data_Cleaning_and_Visualization
 
 
