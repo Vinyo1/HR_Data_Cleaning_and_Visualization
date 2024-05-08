@@ -6,16 +6,16 @@ SELECT *
 FROM hr;
 
 
-#### -- Change ï»¿id column to emp_id and allow NULL values
+### STEP 1 -- Change ï»¿id column to emp_id and allow NULL values
 
 ALTER TABLE hr
 CHANGE COLUMN ï»¿id emp_id VARCHAR(20) NULL;
 
--- Check data types for all columns
+#### -- Check data types for all columns
 DESCRIBE hr;
 
 
-#### -- Change birthdate from text to date
+### STEP 2 -- Change birthdate from text to date
 
 SELECT birthdate
 FROM hr;
@@ -28,3 +28,11 @@ SET birthdate = CASE
     ELSE NULL
 END;
 
+SELECT birthdate
+FROM hr;
+
+### STEP 3 -- Change birthdate data type from text to date
+ALTER TABLE hr
+MODIFY COLUMN birthdate DATE;
+
+DESCRIBE hr;
