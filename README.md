@@ -20,13 +20,13 @@ CHANGE COLUMN ï»¿id emp_id VARCHAR(20) NULL;`
 `SELECT birthdate
 FROM hr;`
 
-`SET sql_safe_updates = 0;
-UPDATE hr
-SET birthdate = CASE
-    WHEN birthdate LIKE '%/%' THEN date_format(str_to_date(birthdate, '%m/%d/%Y'), '%Y-%m-%d')
-    WHEN birthdate LIKE '%-%' THEN date_format(str_to_date(birthdate, '%m-%d-%Y'), '%Y-%m-%d')
-    ELSE NULL
-END;`
+	`SET sql_safe_updates = 0;
+	UPDATE hr
+	SET birthdate = CASE
+	    WHEN birthdate LIKE '%/%' THEN date_format(str_to_date(birthdate, '%m/%d/%Y'), '%Y-%m-%d')
+	    WHEN birthdate LIKE '%-%' THEN date_format(str_to_date(birthdate, '%m-%d-%Y'), '%Y-%m-%d')
+	    ELSE NULL
+	END;`
 
 `SELECT birthdate
 FROM hr;`
