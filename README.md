@@ -88,3 +88,5 @@ EDA involved using the Human Resources data to answer the follwing questions:
 	WHERE age >= 18 AND termdate <= curdate() AND termdate IS NOT NULL;
 ```
 ## Findings:
+#### The following are the summary of the findings;
+1. 
