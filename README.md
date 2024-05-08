@@ -11,7 +11,7 @@
 - [Data Analysis](https://github.com/Vinyo1/HR_Data_Cleaning_and_Visualization/blob/main/README.md#data-analysis)
 - [Findings](https://github.com/Vinyo1/HR_Data_Cleaning_and_Visualization/blob/main/README.md#findings)
 - [Recommendations](https://github.com/Vinyo1/HR_Data_Cleaning_and_Visualization/blob/main/README.md#recommendations)
-- [Limitation](https://github.com/Vinyo1/HR_Data_Cleaning_and_Visualization/blob/main/README.md#limitations)
+- [Limitations](https://github.com/Vinyo1/HR_Data_Cleaning_and_Visualization/blob/main/README.md#limitations)
 - [References](https://github.com/Vinyo1/HR_Data_Cleaning_and_Visualization/blob/main/README.md#references)
 
   
