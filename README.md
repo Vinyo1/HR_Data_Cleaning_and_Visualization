@@ -7,7 +7,7 @@ This project aimed to gain insights into various aspects of employee data within
 The primary date used for this is the Human_Resources.csv file
 
 ## Tools:
-- SQL for Data Cleaning and Data Analysis - [Download SQL Workbench](https://www.mysql.com/products/workbench/)
+- SQL for Data Cleaning and Data Analysis - [Download MySQL Workbench](https://dev.mysql.com/downloads/mysql/)
 - Power BI for Data Visualisation - [Download Microsoft PowerBI](https://www.microsoft.com/en-us/download/details.aspx?id=58494)
 
 ## Data Cleaning/Preparation
@@ -99,3 +99,6 @@ EDA involved using the Human Resources data to answer the follwing questions:
 ## Limitations
 - --
 - --
+
+## References
+- Sql documentation - [Click here to view](https://dev.mysql.com/doc/workbench/en/)
