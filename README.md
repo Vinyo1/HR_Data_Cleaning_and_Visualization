@@ -3,7 +3,12 @@
 ## Project Overview
 This project aimed to gain insights into various aspects of employee data within a company. By leveraging data analytics and visualization techniques, the project delved into understanding patterns, trends and relationships within the dataset to inform HR strategies and decision-making processes.
 
+## Data Sources:
+The primary date used for this is the Human_Resources.csv file
 
+## Tools:
+- SQL for Data Cleaning and Data Analysis [Download SQL Workbench]('https://www.mysql.com/products/workbench/')
+- Power BI for Data Visualisation
 
 ## HR_Data_Cleaning_and_Visualization
 
