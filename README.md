@@ -7,7 +7,7 @@ This project aimed to gain insights into various aspects of employee data within
 The primary date used for this is the Human_Resources.csv file
 
 ## Tools:
-- SQL for Data Cleaning and Data Analysis [Download SQL Workbench]('https://www.mysql.com/products/workbench/')
+- SQL for Data Cleaning and Data Analysis [Download SQL Workbench](https://www.mysql.com/products/workbench/)
 - Power BI for Data Visualisation
 
 ## HR_Data_Cleaning_and_Visualization
