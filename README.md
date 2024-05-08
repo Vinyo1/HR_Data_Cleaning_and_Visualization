@@ -40,9 +40,10 @@ DESCRIBE hr;
 ### STEP 4 -- UPDATE HIRE_DATE
 UPDATE hr 
 SET hire_date = CASE
+
 	WHEN hire_date LIKE '%/%' THEN date_format(str_to_date(hire_date, '%m/%d/%Y'), '%Y-%m-%d')
-    WHEN hire_date LIKE '%-%' THEN date_format(str_to_date(hire_date, '%m-%d-%Y'), '%Y-%m-%d')
-    ELSE NULL
+	WHEN hire_date LIKE '%-%' THEN date_format(str_to_date(hire_date, '%m-%d-%Y'), '%Y-%m-%d')
+	ELSE NULL
 END;
 
 SELECT hire_date FROM hr;
