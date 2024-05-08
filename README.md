@@ -1,6 +1,20 @@
 # Analysis and Visualization of HR Dataset on Employees
+
+
 ## Table of Content
+- [Project Overview](https://github.com/Vinyo1/HR_Data_Cleaning_and_Visualization/blob/main/README.md#project-overview)
+- [Data Sources](https://github.com/Vinyo1/HR_Data_Cleaning_and_Visualization/blob/main/README.md#data-sources)
+- [Tools](https://github.com/Vinyo1/HR_Data_Cleaning_and_Visualization/blob/main/README.md#tools)
+- [Data Cleaning/preparation](https://github.com/Vinyo1/HR_Data_Cleaning_and_Visualization/blob/main/README.md#data-cleaningpreparation)
+  - [Codes used during data cleaning and formatting](https://github.com/Vinyo1/HR_Data_Cleaning_and_Visualization/blob/main/README.md#codes-used-during-data-cleaning-and-formatting)
+- [Exploratory Data Analysis](https://github.com/Vinyo1/HR_Data_Cleaning_and_Visualization/blob/main/README.md#exploratory-data-analysis)
+- [Data Analysis](https://github.com/Vinyo1/HR_Data_Cleaning_and_Visualization/blob/main/README.md#data-analysis)
+- [Findings](https://github.com/Vinyo1/HR_Data_Cleaning_and_Visualization/blob/main/README.md#findings)
 - [Recommendations](https://github.com/Vinyo1/HR_Data_Cleaning_and_Visualization/blob/main/README.md#recommendations)
+- [Limitation](https://github.com/Vinyo1/HR_Data_Cleaning_and_Visualization/blob/main/README.md#limitations)
+- [References](https://github.com/Vinyo1/HR_Data_Cleaning_and_Visualization/blob/main/README.md#references)
+
+  
 ## Project Overview
 This project aimed to gain insights into various aspects of employee data within a company. By leveraging data analytics and visualization techniques, the project delved into understanding patterns, trends and relationships within the dataset to inform HR strategies and decision-making processes.
 
