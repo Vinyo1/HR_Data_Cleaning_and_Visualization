@@ -6,7 +6,7 @@ SELECT *
 FROM hr;
 
 
-####-- Change ï»¿id column to emp_id and allow NULL values
+#### -- Change ï»¿id column to emp_id and allow NULL values
 
 ALTER TABLE hr
 CHANGE COLUMN ï»¿id emp_id VARCHAR(20) NULL;
@@ -15,7 +15,7 @@ CHANGE COLUMN ï»¿id emp_id VARCHAR(20) NULL;
 DESCRIBE hr;
 
 
-####-- Change birthdate from text to date
+#### -- Change birthdate from text to date
 
 SELECT birthdate
 FROM hr;
