@@ -13,3 +13,17 @@ CHANGE COLUMN ï»¿id emp_id VARCHAR(20) NULL;
 
 -- Check data types for all columns
 DESCRIBE hr;
+
+
+-- Change birthdate from text to date
+
+SELECT birthdate
+FROM hr;
+
+SET sql_safe_updates = 0;
+UPDATE hr
+SET birthdate = CASE
+    WHEN birthdate LIKE '%/%' THEN date_format(str_to_date(birthdate, '%m/%d/%Y'), '%Y-%m-%d')
+    WHEN birthdate LIKE '%-%' THEN date_format(str_to_date(birthdate, '%m-%d-%Y'), '%Y-%m-%d')
+    ELSE NULL
+END;
