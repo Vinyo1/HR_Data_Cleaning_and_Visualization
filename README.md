@@ -86,15 +86,14 @@ EDA involved using the Human Resources data to answer the follwing questions:
 	    FROM hr
 	    WHERE age >= 18
 	    GROUP BY department) AS term_subquery
-	ORDER BY termination_rate DESC;```
+	ORDER BY termination_rate DESC;
+```
 
-## 
 
-	```sql
+```sql
 	SELECT
 	ROUND(AVG(datediff(termdate, hire_date))/365,0) AS avg_length_employment
 	FROM hr
-	WHERE age >= 18 AND termdate <= curdate() AND termdate IS NOT NULL;```
-
-
+	WHERE age >= 18 AND termdate <= curdate() AND termdate IS NOT NULL;
+```
 ## Findings:
