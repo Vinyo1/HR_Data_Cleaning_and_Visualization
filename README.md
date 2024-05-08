@@ -89,4 +89,13 @@ EDA involved using the Human Resources data to answer the follwing questions:
 ```
 ## Findings:
 #### The following are the summary of the findings;
-1. 
+1. wfwf
+
+## Recommendations
+- --
+- --
+
+
+## Limitations
+- --
+- --
