@@ -53,18 +53,18 @@ The primary date used for this is the Human_Resources.csv file
 
 ## Exploratory Data Analysis
 EDA involved using the Human Resources data to answer the follwing questions:
-1. WHAT IS THE GENDER BREAKDOWN OF EMPLOYEES IN THE COMPANY?
-2. WHAT IS THE RACE/ETHNICITY BREAKDOWN IN THE COMPANY?
-3. WHAT IS THE AGE DISTRIBUTION OF EMPLOYEES IN THE COMPANY?
-4. WHAT IS THE GENDER DISTRIBUTION AMONG THE AGE GROUPS
-5. HOW MANY EMPLOYEES WORK AT THE HEADQUARTERS VERSUS REMOTE?
-6. WHAT IS THE AVERAGE LENGTH OF EMPLOYMENT FOR EMPLOYEES WHO HAVE BEEN TERMINATED?
-7. WHAT IS THE DISTRIBUTION OF JOB TITLES IN THE COMPANY?
-8. WHICH DEPARTMENT HAS THE HIGHEST TURNOVER RATE(the rate at which employees leave a company?
-9. WHAT IS THE DISTRIBUTION OF EMPLOYEES ACROSS LOCATIONS BY  STATE?
-10. WHAT IS THE DISTRIBUTION OF EMPLOYEES ACROSS LOCATIONS BY LOCATION_CITY?
-11. HOW HAS COMAPNY'S EMPLOYEES COUNT CHANGED OVER TIME BASED ON HIRE AND TERM DATES?
-12. WHAT IS THE TENURE DISTRIBUTION FOR EACH DEPARTMENT?
+1. What is the gender breakdown of employees in the company?
+2. What is the race/ethnicity breakdown in the company?
+3. What is the age distribution of employees in the company?
+4. What is the gender distribution among the age groups?
+5. How many employees work at the headquarters versus remote?
+6. What is the average length of employment for employees who have been terminated?
+7. What is the distribution of job titles in the company?
+8. Which department has the highest turnover rate(the rate at which employees leave a company)?
+9. What is the distribution of employees across locations by state?
+10. What is the distribution of employees across locations by location_city?
+11. How has comapny's employees count changed over time based on hire and term dates?
+12. What is the tenure distribution for each department?
 
 ## Data Analysis:
 
