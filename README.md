@@ -42,4 +42,4 @@
 	END;
  
 #### -- Check hire_date column
-	`SELECT hire_date FROM hr;`
+	SELECT hire_date FROM hr;
