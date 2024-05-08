@@ -76,4 +76,4 @@ EDA involved using the Human Resources data to answer the follwing questions:
 12. WHAT IS THE TENURE DISTRIBUTION FOR EACH DEPARTMENT?
 
 ## Data Analysis:
-Some 
+#### Some codes used during the data analysis stage:
