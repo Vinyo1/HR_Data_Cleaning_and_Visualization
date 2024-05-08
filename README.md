@@ -101,4 +101,6 @@ EDA involved using the Human Resources data to answer the follwing questions:
 - --
 
 ## References
-- Sql documentation - [Click here to view](https://dev.mysql.com/doc/workbench/en/)
+- MySQL documentation - [Click here to view](https://dev.mysql.com/doc/workbench/en/)
+- PowerBi documentation - [Click here to view](https://learn.microsoft.com/en-us/power-bi/)
+  
