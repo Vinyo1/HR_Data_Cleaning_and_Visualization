@@ -14,12 +14,16 @@
 - [Limitations](https://github.com/Vinyo1/HR_Data_Cleaning_and_Visualization/blob/main/README.md#limitations)
 - [References](https://github.com/Vinyo1/HR_Data_Cleaning_and_Visualization/blob/main/README.md#references)
 
+
   
 ## Project Overview
 This project aimed to gain insights into various aspects of employee data within a company. By leveraging data analytics and visualization techniques, the project delved into understanding patterns, trends and relationships within the dataset to inform HR strategies and decision-making processes.
 
+![HR Report-2](https://github.com/Vinyo1/HR_Data_Cleaning_and_Visualization/assets/136182841/f658cbb2-78af-4d97-bcc2-8c74ecc77dfe)
+
+
 ## Data Sources:
-The primary date used for this is the Human_Resources.csv file
+The primary data used for this is the [Human_Resources.csv](https://github.com/Vinyo1/HR_Data_Cleaning_and_Visualization/blob/main/Human_Resources.csv) file
 
 ## Tools:
 - SQL for Data Cleaning and Data Analysis - [Download MySQL Workbench](https://dev.mysql.com/downloads/mysql/)
