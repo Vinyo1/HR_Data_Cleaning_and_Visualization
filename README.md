@@ -158,8 +158,7 @@ EDA involved using the Human Resources data to answer the follwing questions:
 
 
 ## Limitations
-- --
-- --
+ The data had some negative birthdates which I had to remove else it will affect the accuracy of my conclusions.
 
 ## References
 - MySQL documentation - [Click here to view](https://dev.mysql.com/doc/workbench/en/)
