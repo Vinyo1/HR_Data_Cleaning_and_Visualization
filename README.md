@@ -17,7 +17,7 @@
 
   
 ## Project Overview
-This project aimed to gain insights into various aspects of employee data within a company. By leveraging data analytics and visualization techniques, the project delved into understanding patterns, trends and relationships within the dataset to inform HR strategies and decision-making processes.
+This project aimed to gain insights into various aspects of employee data within a company. By leveraging data analytics and visualization techniques, the project delved into understanding patterns, trends and relationships within the dataset to inform HR strategies and decision-making processes in predicting how long an empployee is likely to stay with the company.
 
 ![HR Report-2](https://github.com/Vinyo1/HR_Data_Cleaning_and_Visualization/assets/136182841/f658cbb2-78af-4d97-bcc2-8c74ecc77dfe)
 
@@ -122,11 +122,39 @@ EDA involved using the Human Resources data to answer the follwing questions:
 ```
 ## Findings:
 #### The following are the summary of the findings;
-1. wfwf
+1. Only a quarter(25%) of the staff work remotely.
+2. The company has a staff strength of over 21000.
+3. Majority of Employees live in Ohio State.
+4. The average length employees work in the company is 8 years.
+5. There is a continuous increase in hires from the year 2004 to 2020.
+6. The largest proportion of workers were white and the smallest proportion were Native Hawaaian/Other Pacisific Islanders.
+7. Across all age groups, the non-conforming gender category had the lowest representation.
+8. The engineering department boasts the highest proportion of female representation across all departments. However, this is primarily attributed to the fact that the engineering department has the largest number of staff overall.
+9. The sales department maintains the longest average tenure at 9 years, while the business development, human resources, support, training, legal, and product management departments have the lowest average tenure at 7 years.
+10. The auditing department has the highest employment termination rate of of 0.18 while the marketing department has the lowest termnation rate of 0.09.
 
 ## Recommendations
-- --
-- --
+1. **Remote Work:** Given that only a quarter of the staff work remotely, consider evaluating the potential benefits of expanding remote work opportunities. This could improve employee satisfaction, work-life balance, and potentially attract talent from a broader geographic area.
+
+2. **Staff Strength:** With a staff strength of over 21,000, ensure that HR systems and processes are robust enough to handle such a large workforce efficiently. Consider implementing scalable HR technologies to streamline operations.
+
+3. **Location Distribution:** Since the majority of employees reside in Ohio State, explore ways to leverage this geographical concentration, such as local community engagement initiatives or targeted recruitment efforts.
+
+4. **Employee Tenure:** With an average employee tenure of 8 years, focus on strategies to improve employee retention, such as career development opportunities, competitive compensation packages, and a positive work culture.
+
+5. **Hiring Trends:** Analyze the factors driving the continuous increase in hires from 2004 to 2020 to forecast future hiring needs accurately. Consider aligning hiring strategies with business growth projections and market demand. Is this a sign of growth or high turnover? Understanding the reasons behind the hiring pattern can help with future workforce planning.
+
+6. **Diversity and Inclusion:** Recognize the disparities in workforce diversity, particularly the underrepresentation of certain ethnic groups. Implement diversity and inclusion initiatives to foster a more inclusive workplace culture and attract a more diverse talent pool.
+
+7. **Gender Representation:** Address the low representation of non-conforming genders across all age groups by implementing targeted recruitment and retention strategies aimed at promoting diversity and inclusion.
+
+8. **Departmental Gender Representation:** While celebrating the high proportion of female representation in the engineering department, ensure that gender diversity efforts are inclusive across all departments, regardless of size.
+
+9. **Departmental Tenure:** Investigate the factors contributing to the longer tenure in the sales department compared to other departments with lower tenure. Consider implementing retention strategies tailored to each department's unique needs and challenges.
+
+10. **Termination Rates:** Identify the reasons behind the high termination rate in the auditing department and explore strategies to improve employee satisfaction, engagement, and retention. Conversely, recognize and reinforce the practices contributing to the low termination rate in the marketing department.
+
+
 
 
 ## Limitations
