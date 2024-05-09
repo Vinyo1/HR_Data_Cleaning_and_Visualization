@@ -94,7 +94,21 @@ EDA involved using the Human Resources data to answer the follwing questions:
 	    GROUP BY department) AS term_subquery
 	ORDER BY termination_rate DESC;
 ```
-
+```sql
+	SELECT
+		year, hires, terminations, hires - terminations AS net_change, 
+	    ROUND((hires - terminations)/hires*100,2) AS net_change_percent
+	FROM(
+		SELECT 
+			YEAR(hire_date) AS year,
+	        COUNT(*) AS hires,
+	        SUM(CASE WHEN termdate IS NOT NULL AND termdate <= curdate() THEN 1 ELSE 0 END) AS terminations
+		FROM hr
+	    WHERE age >= 18
+	    GROUP BY YEAR(hire_date)
+	    ) AS termination_sub_query
+	ORDER BY year ASC;
+```
 
 ```sql
 	SELECT
